@@ -1,15 +1,17 @@
-function checkPass()
-{
-    var pass1 = document.getElementById('pass1');
+const inputField = document.querySelector('.input-field')
+const button = document.querySelector('.btn')
+const output = document.querySelector('.output')
 
-    if(pass1.value.length >= 10)
-    {
-        pass1.style.backgroundColor ="green";
+button.addEventListener('click',()=>{
+
+    let inputFieldValue = inputField.value;
+    output.textContent = inputFieldValue;
+
+    if(inputFieldValue%2===0){
+        output.style.color="green"
     }
-    else
-    {
-        pass1.style.backgroundColor = 'red';
-        return;
+    else{
+        output.style.color="red"
     }
-  
-}
+})
+
