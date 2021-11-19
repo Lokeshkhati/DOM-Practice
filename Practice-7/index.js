@@ -8,11 +8,10 @@ toggle.addEventListener("click", () => {
 
   if (addFlag) {
     toggle.textContent = "Hide";
-    showHidePassword();
   } else {
     toggle.textContent = "Show";
-    showHidePassword();
   }
+  showHidePassword()
 });
 
 
