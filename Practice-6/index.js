@@ -10,5 +10,6 @@ clickButton.addEventListener('click',()=>{
     p.appendChild(text)
     output.appendChild(p);
      inputField.value = "";
+   
  
 })

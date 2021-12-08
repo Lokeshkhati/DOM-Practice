@@ -5,7 +5,7 @@ const btnSmall = document.querySelector(".btn-small");
 
 let font = 16;
 btnLarge.addEventListener("click", function () {
-    font+=2
+    font+=20
   let inputFieldValue = inputField.value;
   outputField.textContent =inputFieldValue
   outputField.style.fontSize=`${font}px`
