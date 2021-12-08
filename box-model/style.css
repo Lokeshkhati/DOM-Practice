@@ -1,0 +1,9 @@
+div{
+  height: 100px;
+  width: 100px;
+  border: 20px solid red;
+  padding: 10px;
+  margin: 30px;
+  background-color: blue;
+  box-sizing: border-box;
+}

@@ -18,11 +18,6 @@ button.addEventListener("click", () => {
   ) {
     outputMessage.textContent = `divisible by ${firstNumber} and ${thirdNumber}`;
   }
- else if( 
-    inputFieldValue % firstNumber === 0 && inputFieldValue % secondNumber=== 0
-  ) {
-    outputMessage.textContent = `divisible by ${firstNumber} and ${secondNumber}`;
-  }
   else if (inputFieldValue % firstNumber === 0) {
     outputMessage.textContent = `divisible by ${firstNumber}`;
   } else if (inputFieldValue % secondNumber === 0) {
